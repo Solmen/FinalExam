@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		261C03C9191ABA1300BBA9FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 261C03C8191ABA1300BBA9FC /* Foundation.framework */; };
+		261C03CB191ABA1300BBA9FC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 261C03CA191ABA1300BBA9FC /* CoreGraphics.framework */; };
+		261C03CD191ABA1300BBA9FC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 261C03CC191ABA1300BBA9FC /* UIKit.framework */; };
+		261C03D3191ABA1300BBA9FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 261C03D1191ABA1300BBA9FC /* InfoPlist.strings */; };
+		261C03D5191ABA1300BBA9FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 261C03D4191ABA1300BBA9FC /* main.m */; };
+		261C03D9191ABA1300BBA9FC /* FinalExamAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 261C03D8191ABA1300BBA9FC /* FinalExamAppDelegate.m */; };
+		261C03DC191ABA1300BBA9FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 261C03DA191ABA1300BBA9FC /* Main.storyboard */; };
+		261C03DF191ABA1300BBA9FC /* FinalExamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 261C03DE191ABA1300BBA9FC /* FinalExamViewController.m */; };
+		261C03E1191ABA1300BBA9FC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 261C03E0191ABA1300BBA9FC /* Images.xcassets */; };
+		261C03E8191ABA1300BBA9FC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 261C03E7191ABA1300BBA9FC /* XCTest.framework */; };
+		261C03E9191ABA1300BBA9FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 261C03C8191ABA1300BBA9FC /* Foundation.framework */; };
+		261C03EA191ABA1300BBA9FC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 261C03CC191ABA1300BBA9FC /* UIKit.framework */; };
+		261C03F2191ABA1300BBA9FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 261C03F0191ABA1300BBA9FC /* InfoPlist.strings */; };
+		261C03F4191ABA1300BBA9FC /* FinalExamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 261C03F3191ABA1300BBA9FC /* FinalExamTests.m */; };
+		261C040A191ABA2F00BBA9FC /* Test1bCardMatchingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 261C03FE191ABA2F00BBA9FC /* Test1bCardMatchingGame.m */; };
+		261C040B191ABA2F00BBA9FC /* Test1bCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 261C0400191ABA2F00BBA9FC /* Test1bCardView.m */; };
+		261C040C191ABA2F00BBA9FC /* Test1bCardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 261C0401191ABA2F00BBA9FC /* Test1bCardView.xib */; };
+		261C040D191ABA2F00BBA9FC /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 261C0403191ABA2F00BBA9FC /* Card.m */; };
+		261C040E191ABA2F00BBA9FC /* Test1bViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 261C0405191ABA2F00BBA9FC /* Test1bViewController.m */; };
+		261C040F191ABA2F00BBA9FC /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 261C0407191ABA2F00BBA9FC /* Deck.m */; };
+		261C0410191ABA2F00BBA9FC /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 261C0409191ABA2F00BBA9FC /* PlayingCard.m */; };
+		261C0413191ABA5200BBA9FC /* front.png in Resources */ = {isa = PBXBuildFile; fileRef = 261C0412191ABA5200BBA9FC /* front.png */; };
+		261C0415191ABA5800BBA9FC /* muhback.png in Resources */ = {isa = PBXBuildFile; fileRef = 261C0414191ABA5800BBA9FC /* muhback.png */; };
+		261C041D191ABAA200BBA9FC /* SpirographViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 261C0417191ABAA200BBA9FC /* SpirographViewController.m */; };
+		261C041E191ABAA200BBA9FC /* SpirographView.m in Sources */ = {isa = PBXBuildFile; fileRef = 261C041A191ABAA200BBA9FC /* SpirographView.m */; };
+		261C041F191ABAA200BBA9FC /* HarmonigraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 261C041C191ABAA200BBA9FC /* HarmonigraphView.m */; };
+		261C0427191ABAE700BBA9FC /* redframer.png in Resources */ = {isa = PBXBuildFile; fileRef = 261C0421191ABAE700BBA9FC /* redframer.png */; };
+		261C0428191ABAE700BBA9FC /* ESViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 261C0423191ABAE700BBA9FC /* ESViewController.m */; };
+		261C0429191ABAE700BBA9FC /* ESView.m in Sources */ = {isa = PBXBuildFile; fileRef = 261C0425191ABAE700BBA9FC /* ESView.m */; };
+		261C042D191ABD7900BBA9FC /* FinalExamTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 261C042C191ABD7900BBA9FC /* FinalExamTabBarViewController.m */; };
+		261C0431191AC1D300BBA9FC /* spirotabbaritem.png in Resources */ = {isa = PBXBuildFile; fileRef = 261C042F191AC1D300BBA9FC /* spirotabbaritem.png */; };
+		261C0434191AC20C00BBA9FC /* FinalExamAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 261C0433191AC20C00BBA9FC /* FinalExamAboutViewController.m */; };
+		261C0436191AC79C00BBA9FC /* etchtabbaritem.png in Resources */ = {isa = PBXBuildFile; fileRef = 261C0435191AC79C00BBA9FC /* etchtabbaritem.png */; };
+		261C0438191AC7F700BBA9FC /* cardtabbaritem.png in Resources */ = {isa = PBXBuildFile; fileRef = 261C0437191AC7F700BBA9FC /* cardtabbaritem.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		261C03EB191ABA1300BBA9FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 261C03BD191ABA1300BBA9FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 261C03C4191ABA1300BBA9FC;
+			remoteInfo = FinalExam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		261C03C5191ABA1300BBA9FC /* FinalExam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalExam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		261C03C8191ABA1300BBA9FC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		261C03CA191ABA1300BBA9FC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		261C03CC191ABA1300BBA9FC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		261C03D0191ABA1300BBA9FC /* FinalExam-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FinalExam-Info.plist"; sourceTree = "<group>"; };
+		261C03D2191ABA1300BBA9FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		261C03D4191ABA1300BBA9FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		261C03D6191ABA1300BBA9FC /* FinalExam-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FinalExam-Prefix.pch"; sourceTree = "<group>"; };
+		261C03D7191ABA1300BBA9FC /* FinalExamAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FinalExamAppDelegate.h; sourceTree = "<group>"; };
+		261C03D8191ABA1300BBA9FC /* FinalExamAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FinalExamAppDelegate.m; sourceTree = "<group>"; };
+		261C03DB191ABA1300BBA9FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		261C03DD191ABA1300BBA9FC /* FinalExamViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FinalExamViewController.h; sourceTree = "<group>"; };
+		261C03DE191ABA1300BBA9FC /* FinalExamViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FinalExamViewController.m; sourceTree = "<group>"; };
+		261C03E0191ABA1300BBA9FC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		261C03E6191ABA1300BBA9FC /* FinalExamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinalExamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		261C03E7191ABA1300BBA9FC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		261C03EF191ABA1300BBA9FC /* FinalExamTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FinalExamTests-Info.plist"; sourceTree = "<group>"; };
+		261C03F1191ABA1300BBA9FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		261C03F3191ABA1300BBA9FC /* FinalExamTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FinalExamTests.m; sourceTree = "<group>"; };
+		261C03FD191ABA2F00BBA9FC /* Test1bCardMatchingGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test1bCardMatchingGame.h; sourceTree = "<group>"; };
+		261C03FE191ABA2F00BBA9FC /* Test1bCardMatchingGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test1bCardMatchingGame.m; sourceTree = "<group>"; };
+		261C03FF191ABA2F00BBA9FC /* Test1bCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test1bCardView.h; sourceTree = "<group>"; };
+		261C0400191ABA2F00BBA9FC /* Test1bCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test1bCardView.m; sourceTree = "<group>"; };
+		261C0401191ABA2F00BBA9FC /* Test1bCardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Test1bCardView.xib; sourceTree = "<group>"; };
+		261C0402191ABA2F00BBA9FC /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		261C0403191ABA2F00BBA9FC /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		261C0404191ABA2F00BBA9FC /* Test1bViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test1bViewController.h; sourceTree = "<group>"; };
+		261C0405191ABA2F00BBA9FC /* Test1bViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test1bViewController.m; sourceTree = "<group>"; };
+		261C0406191ABA2F00BBA9FC /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
+		261C0407191ABA2F00BBA9FC /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
+		261C0408191ABA2F00BBA9FC /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
+		261C0409191ABA2F00BBA9FC /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
+		261C0412191ABA5200BBA9FC /* front.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = front.png; sourceTree = "<group>"; };
+		261C0414191ABA5800BBA9FC /* muhback.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = muhback.png; sourceTree = "<group>"; };
+		261C0417191ABAA200BBA9FC /* SpirographViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpirographViewController.m; sourceTree = "<group>"; };
+		261C0418191ABAA200BBA9FC /* SpirographViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpirographViewController.h; sourceTree = "<group>"; };
+		261C0419191ABAA200BBA9FC /* SpirographView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpirographView.h; sourceTree = "<group>"; };
+		261C041A191ABAA200BBA9FC /* SpirographView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpirographView.m; sourceTree = "<group>"; };
+		261C041B191ABAA200BBA9FC /* HarmonigraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HarmonigraphView.h; sourceTree = "<group>"; };
+		261C041C191ABAA200BBA9FC /* HarmonigraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HarmonigraphView.m; sourceTree = "<group>"; };
+		261C0421191ABAE700BBA9FC /* redframer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redframer.png; sourceTree = "<group>"; };
+		261C0422191ABAE700BBA9FC /* ESViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESViewController.h; sourceTree = "<group>"; };
+		261C0423191ABAE700BBA9FC /* ESViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESViewController.m; sourceTree = "<group>"; };
+		261C0424191ABAE700BBA9FC /* ESView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESView.h; sourceTree = "<group>"; };
+		261C0425191ABAE700BBA9FC /* ESView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESView.m; sourceTree = "<group>"; };
+		261C042B191ABD7900BBA9FC /* FinalExamTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FinalExamTabBarViewController.h; sourceTree = "<group>"; };
+		261C042C191ABD7900BBA9FC /* FinalExamTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FinalExamTabBarViewController.m; sourceTree = "<group>"; };
+		261C042F191AC1D300BBA9FC /* spirotabbaritem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spirotabbaritem.png; sourceTree = "<group>"; };
+		261C0432191AC20C00BBA9FC /* FinalExamAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FinalExamAboutViewController.h; sourceTree = "<group>"; };
+		261C0433191AC20C00BBA9FC /* FinalExamAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FinalExamAboutViewController.m; sourceTree = "<group>"; };
+		261C0435191AC79C00BBA9FC /* etchtabbaritem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = etchtabbaritem.png; sourceTree = "<group>"; };
+		261C0437191AC7F700BBA9FC /* cardtabbaritem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cardtabbaritem.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		261C03C2191ABA1300BBA9FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				261C03CB191ABA1300BBA9FC /* CoreGraphics.framework in Frameworks */,
+				261C03CD191ABA1300BBA9FC /* UIKit.framework in Frameworks */,
+				261C03C9191ABA1300BBA9FC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		261C03E3191ABA1300BBA9FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				261C03E8191ABA1300BBA9FC /* XCTest.framework in Frameworks */,
+				261C03EA191ABA1300BBA9FC /* UIKit.framework in Frameworks */,
+				261C03E9191ABA1300BBA9FC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		261C03BC191ABA1300BBA9FC = {
+			isa = PBXGroup;
+			children = (
+				261C03CE191ABA1300BBA9FC /* FinalExam */,
+				261C03ED191ABA1300BBA9FC /* FinalExamTests */,
+				261C03C7191ABA1300BBA9FC /* Frameworks */,
+				261C03C6191ABA1300BBA9FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		261C03C6191ABA1300BBA9FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				261C03C5191ABA1300BBA9FC /* FinalExam.app */,
+				261C03E6191ABA1300BBA9FC /* FinalExamTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		261C03C7191ABA1300BBA9FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				261C03C8191ABA1300BBA9FC /* Foundation.framework */,
+				261C03CA191ABA1300BBA9FC /* CoreGraphics.framework */,
+				261C03CC191ABA1300BBA9FC /* UIKit.framework */,
+				261C03E7191ABA1300BBA9FC /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		261C03CE191ABA1300BBA9FC /* FinalExam */ = {
+			isa = PBXGroup;
+			children = (
+				261C0416191ABA9000BBA9FC /* Spirograph */,
+				261C0411191ABA3500BBA9FC /* test1b */,
+				261C0420191ABAB400BBA9FC /* Quiz8 */,
+				261C03D7191ABA1300BBA9FC /* FinalExamAppDelegate.h */,
+				261C03D8191ABA1300BBA9FC /* FinalExamAppDelegate.m */,
+				261C03DA191ABA1300BBA9FC /* Main.storyboard */,
+				261C0432191AC20C00BBA9FC /* FinalExamAboutViewController.h */,
+				261C0433191AC20C00BBA9FC /* FinalExamAboutViewController.m */,
+				261C042B191ABD7900BBA9FC /* FinalExamTabBarViewController.h */,
+				261C042C191ABD7900BBA9FC /* FinalExamTabBarViewController.m */,
+				261C03DD191ABA1300BBA9FC /* FinalExamViewController.h */,
+				261C03DE191ABA1300BBA9FC /* FinalExamViewController.m */,
+				261C0437191AC7F700BBA9FC /* cardtabbaritem.png */,
+				261C0435191AC79C00BBA9FC /* etchtabbaritem.png */,
+				261C042F191AC1D300BBA9FC /* spirotabbaritem.png */,
+				261C03E0191ABA1300BBA9FC /* Images.xcassets */,
+				261C03CF191ABA1300BBA9FC /* Supporting Files */,
+			);
+			path = FinalExam;
+			sourceTree = "<group>";
+		};
+		261C03CF191ABA1300BBA9FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				261C03D0191ABA1300BBA9FC /* FinalExam-Info.plist */,
+				261C03D1191ABA1300BBA9FC /* InfoPlist.strings */,
+				261C03D4191ABA1300BBA9FC /* main.m */,
+				261C03D6191ABA1300BBA9FC /* FinalExam-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		261C03ED191ABA1300BBA9FC /* FinalExamTests */ = {
+			isa = PBXGroup;
+			children = (
+				261C03F3191ABA1300BBA9FC /* FinalExamTests.m */,
+				261C03EE191ABA1300BBA9FC /* Supporting Files */,
+			);
+			path = FinalExamTests;
+			sourceTree = "<group>";
+		};
+		261C03EE191ABA1300BBA9FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				261C03EF191ABA1300BBA9FC /* FinalExamTests-Info.plist */,
+				261C03F0191ABA1300BBA9FC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		261C0411191ABA3500BBA9FC /* test1b */ = {
+			isa = PBXGroup;
+			children = (
+				261C0414191ABA5800BBA9FC /* muhback.png */,
+				261C0412191ABA5200BBA9FC /* front.png */,
+				261C03FD191ABA2F00BBA9FC /* Test1bCardMatchingGame.h */,
+				261C03FE191ABA2F00BBA9FC /* Test1bCardMatchingGame.m */,
+				261C03FF191ABA2F00BBA9FC /* Test1bCardView.h */,
+				261C0400191ABA2F00BBA9FC /* Test1bCardView.m */,
+				261C0401191ABA2F00BBA9FC /* Test1bCardView.xib */,
+				261C0402191ABA2F00BBA9FC /* Card.h */,
+				261C0403191ABA2F00BBA9FC /* Card.m */,
+				261C0404191ABA2F00BBA9FC /* Test1bViewController.h */,
+				261C0405191ABA2F00BBA9FC /* Test1bViewController.m */,
+				261C0406191ABA2F00BBA9FC /* Deck.h */,
+				261C0407191ABA2F00BBA9FC /* Deck.m */,
+				261C0408191ABA2F00BBA9FC /* PlayingCard.h */,
+				261C0409191ABA2F00BBA9FC /* PlayingCard.m */,
+			);
+			name = test1b;
+			sourceTree = "<group>";
+		};
+		261C0416191ABA9000BBA9FC /* Spirograph */ = {
+			isa = PBXGroup;
+			children = (
+				261C0418191ABAA200BBA9FC /* SpirographViewController.h */,
+				261C0417191ABAA200BBA9FC /* SpirographViewController.m */,
+				261C0419191ABAA200BBA9FC /* SpirographView.h */,
+				261C041A191ABAA200BBA9FC /* SpirographView.m */,
+				261C041B191ABAA200BBA9FC /* HarmonigraphView.h */,
+				261C041C191ABAA200BBA9FC /* HarmonigraphView.m */,
+			);
+			name = Spirograph;
+			sourceTree = "<group>";
+		};
+		261C0420191ABAB400BBA9FC /* Quiz8 */ = {
+			isa = PBXGroup;
+			children = (
+				261C0421191ABAE700BBA9FC /* redframer.png */,
+				261C0422191ABAE700BBA9FC /* ESViewController.h */,
+				261C0423191ABAE700BBA9FC /* ESViewController.m */,
+				261C0424191ABAE700BBA9FC /* ESView.h */,
+				261C0425191ABAE700BBA9FC /* ESView.m */,
+			);
+			name = Quiz8;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		261C03C4191ABA1300BBA9FC /* FinalExam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 261C03F7191ABA1300BBA9FC /* Build configuration list for PBXNativeTarget "FinalExam" */;
+			buildPhases = (
+				261C03C1191ABA1300BBA9FC /* Sources */,
+				261C03C2191ABA1300BBA9FC /* Frameworks */,
+				261C03C3191ABA1300BBA9FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FinalExam;
+			productName = FinalExam;
+			productReference = 261C03C5191ABA1300BBA9FC /* FinalExam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		261C03E5191ABA1300BBA9FC /* FinalExamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 261C03FA191ABA1300BBA9FC /* Build configuration list for PBXNativeTarget "FinalExamTests" */;
+			buildPhases = (
+				261C03E2191ABA1300BBA9FC /* Sources */,
+				261C03E3191ABA1300BBA9FC /* Frameworks */,
+				261C03E4191ABA1300BBA9FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				261C03EC191ABA1300BBA9FC /* PBXTargetDependency */,
+			);
+			name = FinalExamTests;
+			productName = FinalExamTests;
+			productReference = 261C03E6191ABA1300BBA9FC /* FinalExamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		261C03BD191ABA1300BBA9FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FinalExam;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Samuel Tolkin";
+				TargetAttributes = {
+					261C03E5191ABA1300BBA9FC = {
+						TestTargetID = 261C03C4191ABA1300BBA9FC;
+					};
+				};
+			};
+			buildConfigurationList = 261C03C0191ABA1300BBA9FC /* Build configuration list for PBXProject "FinalExam" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 261C03BC191ABA1300BBA9FC;
+			productRefGroup = 261C03C6191ABA1300BBA9FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				261C03C4191ABA1300BBA9FC /* FinalExam */,
+				261C03E5191ABA1300BBA9FC /* FinalExamTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		261C03C3191ABA1300BBA9FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				261C0436191AC79C00BBA9FC /* etchtabbaritem.png in Resources */,
+				261C03E1191ABA1300BBA9FC /* Images.xcassets in Resources */,
+				261C03D3191ABA1300BBA9FC /* InfoPlist.strings in Resources */,
+				261C0427191ABAE700BBA9FC /* redframer.png in Resources */,
+				261C03DC191ABA1300BBA9FC /* Main.storyboard in Resources */,
+				261C0415191ABA5800BBA9FC /* muhback.png in Resources */,
+				261C0431191AC1D300BBA9FC /* spirotabbaritem.png in Resources */,
+				261C0413191ABA5200BBA9FC /* front.png in Resources */,
+				261C0438191AC7F700BBA9FC /* cardtabbaritem.png in Resources */,
+				261C040C191ABA2F00BBA9FC /* Test1bCardView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		261C03E4191ABA1300BBA9FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				261C03F2191ABA1300BBA9FC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		261C03C1191ABA1300BBA9FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				261C040F191ABA2F00BBA9FC /* Deck.m in Sources */,
+				261C03D9191ABA1300BBA9FC /* FinalExamAppDelegate.m in Sources */,
+				261C042D191ABD7900BBA9FC /* FinalExamTabBarViewController.m in Sources */,
+				261C040A191ABA2F00BBA9FC /* Test1bCardMatchingGame.m in Sources */,
+				261C0410191ABA2F00BBA9FC /* PlayingCard.m in Sources */,
+				261C0429191ABAE700BBA9FC /* ESView.m in Sources */,
+				261C03DF191ABA1300BBA9FC /* FinalExamViewController.m in Sources */,
+				261C03D5191ABA1300BBA9FC /* main.m in Sources */,
+				261C0434191AC20C00BBA9FC /* FinalExamAboutViewController.m in Sources */,
+				261C040E191ABA2F00BBA9FC /* Test1bViewController.m in Sources */,
+				261C041E191ABAA200BBA9FC /* SpirographView.m in Sources */,
+				261C0428191ABAE700BBA9FC /* ESViewController.m in Sources */,
+				261C041F191ABAA200BBA9FC /* HarmonigraphView.m in Sources */,
+				261C040B191ABA2F00BBA9FC /* Test1bCardView.m in Sources */,
+				261C040D191ABA2F00BBA9FC /* Card.m in Sources */,
+				261C041D191ABAA200BBA9FC /* SpirographViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		261C03E2191ABA1300BBA9FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				261C03F4191ABA1300BBA9FC /* FinalExamTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		261C03EC191ABA1300BBA9FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 261C03C4191ABA1300BBA9FC /* FinalExam */;
+			targetProxy = 261C03EB191ABA1300BBA9FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		261C03D1191ABA1300BBA9FC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				261C03D2191ABA1300BBA9FC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		261C03DA191ABA1300BBA9FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				261C03DB191ABA1300BBA9FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		261C03F0191ABA1300BBA9FC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				261C03F1191ABA1300BBA9FC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		261C03F5191ABA1300BBA9FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		261C03F6191ABA1300BBA9FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		261C03F8191ABA1300BBA9FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FinalExam/FinalExam-Prefix.pch";
+				INFOPLIST_FILE = "FinalExam/FinalExam-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		261C03F9191ABA1300BBA9FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FinalExam/FinalExam-Prefix.pch";
+				INFOPLIST_FILE = "FinalExam/FinalExam-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		261C03FB191ABA1300BBA9FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FinalExam.app/FinalExam";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FinalExam/FinalExam-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FinalExamTests/FinalExamTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		261C03FC191ABA1300BBA9FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FinalExam.app/FinalExam";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FinalExam/FinalExam-Prefix.pch";
+				INFOPLIST_FILE = "FinalExamTests/FinalExamTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		261C03C0191ABA1300BBA9FC /* Build configuration list for PBXProject "FinalExam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				261C03F5191ABA1300BBA9FC /* Debug */,
+				261C03F6191ABA1300BBA9FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		261C03F7191ABA1300BBA9FC /* Build configuration list for PBXNativeTarget "FinalExam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				261C03F8191ABA1300BBA9FC /* Debug */,
+				261C03F9191ABA1300BBA9FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		261C03FA191ABA1300BBA9FC /* Build configuration list for PBXNativeTarget "FinalExamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				261C03FB191ABA1300BBA9FC /* Debug */,
+				261C03FC191ABA1300BBA9FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 261C03BD191ABA1300BBA9FC /* Project object */;
+}
